@@ -1,2 +1,4 @@
-.idea
+/.idea
 /poetry.lock
+
+/.env
