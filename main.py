@@ -1,4 +1,4 @@
-from temp.main import rsyncwrap
+from rsyncwrap.main import rsyncwrap
 from config import SOURCE, DESTINATION
 
 
