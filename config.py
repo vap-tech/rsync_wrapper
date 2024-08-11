@@ -5,6 +5,9 @@ load_dotenv()
 
 DEBUG = os.getenv("DEBUG") == "True"
 
+SOURCE = os.getenv("SOURCE")
+DESTINATION = os.getenv("DESTINATION")
+
 STATIC = os.getenv("STATIC")
 
 DB_HOST = os.getenv("DB_HOST")
