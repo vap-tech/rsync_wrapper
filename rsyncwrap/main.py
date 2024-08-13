@@ -1,8 +1,7 @@
 import subprocess
 import re
 from dataclasses import dataclass
-from functools import cached_property
-from typing import Optional, Iterator, Union
+from typing import Optional, Iterator
 
 
 def _rsync_available():
